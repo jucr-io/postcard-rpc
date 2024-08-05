@@ -16,7 +16,7 @@ pub(crate) const BULK_OUT_EP: u8 = 0x01;
 /// The Bulk In Endpoint (0x80 | 0x01): In EP 1
 pub(crate) const BULK_IN_EP: u8 = 0x81;
 /// The size in bytes of the largest possible IN transfer
-pub(crate) const MAX_TRANSFER_SIZE: usize = 1024;
+pub(crate) const MAX_TRANSFER_SIZE: usize = 4096;
 /// How many in-flight requests at once - allows nusb to keep pulling frames
 /// even if we haven't processed them host-side yet.
 pub(crate) const IN_FLIGHT_REQS: usize = 4;
