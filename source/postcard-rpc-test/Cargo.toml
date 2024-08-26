@@ -4,7 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies.postcard]
-version = "1.0.8"
+# version = "1.0.8"   -> path is 1.0.9 which is what we want
+path = "../../../postcard/source/postcard"
 features = ["use-std", "experimental-derive"]
 
 [dependencies.serde]

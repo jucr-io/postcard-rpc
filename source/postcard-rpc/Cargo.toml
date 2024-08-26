@@ -1,6 +1,6 @@
 [package]
 name = "postcard-rpc"
-version = "0.5.2"
+version = "0.6.0"
 authors = ["James Munns <james@onevariable.com>"]
 edition = "2021"
 repository = "https://github.com/jamesmunns/postcard-rpc"
@@ -24,10 +24,16 @@ features = [
 ]
 
 [dependencies]
+byteorder = { version = "1.5", default-features = false }
 cobs = { version = "0.2.3", optional = true, default-features = false }
 defmt = { version = "0.3.5", optional = true }
 heapless = "0.8.0"
-postcard = { git = "ssh://git@github.com/jamesmunns/postcard", features = ["experimental-derive"] }
+# postcard = { version = "1.0.8", features = ["experimental-derive"] }
+# 1.0.9 not yet released...
+# postcard = { git = "https://github.com/jamesmunns/postcard", features = ["experimental-derive"] }
+
+# local cherrypicked PR
+postcard = { path = "../../../postcard/source/postcard", features = ["experimental-derive"] }
 serde = { version = "1.0.192", default-features = false, features = ["derive"] }
 
 #
@@ -108,18 +114,22 @@ optional = true
 
 [dependencies.embassy-usb]
 git = "ssh://git@github.com/jucr-io/embassy/"
+branch = "kk/update-forks-main"
 optional = true
 
 [dependencies.embassy-usb-driver]
 git = "ssh://git@github.com/jucr-io/embassy/"
+branch = "kk/update-forks-main"
 optional = true
 
 [dependencies.embassy-sync]
 git = "ssh://git@github.com/jucr-io/embassy/"
+branch = "kk/update-forks-main"
 optional = true
 
 [dependencies.embassy-executor]
 git = "ssh://git@github.com/jucr-io/embassy/"
+branch = "kk/update-forks-main"
 optional = true
 
 [dependencies.static_cell]

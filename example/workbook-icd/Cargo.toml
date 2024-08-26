@@ -9,11 +9,12 @@ features = ["derive"]
 default-features = false
 
 [dependencies.postcard]
-version = "1.0"
+# version = "1.0"  --> path is 1.0.9 which is what we want
 features = ["experimental-derive"]
+path = "../../../postcard/source/postcard"
 
 [dependencies.postcard-rpc]
-version = "0.5"
+version = "0.6"
 
 [patch.crates-io]
 postcard-rpc = { path = "../../source/postcard-rpc" }
