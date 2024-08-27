@@ -24,16 +24,10 @@ features = [
 ]
 
 [dependencies]
-byteorder = { version = "1.5", default-features = false }
 cobs = { version = "0.2.3", optional = true, default-features = false }
 defmt = { version = "0.3.5", optional = true }
 heapless = "0.8.0"
-# postcard = { version = "1.0.8", features = ["experimental-derive"] }
-# 1.0.9 not yet released...
-# postcard = { git = "https://github.com/jamesmunns/postcard", features = ["experimental-derive"] }
-
-# local cherrypicked PR
-postcard = { path = "../../../postcard/source/postcard", features = ["experimental-derive"] }
+postcard = { git = "ssh://git@github.com/jucr-io/postcard", features = ["experimental-derive"] }
 serde = { version = "1.0.192", default-features = false, features = ["derive"] }
 
 #

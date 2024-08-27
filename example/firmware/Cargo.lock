@@ -1087,6 +1087,7 @@ dependencies = [
 [[package]]
 name = "postcard"
 version = "1.0.9"
+source = "git+ssh://git@github.com/jucr-io/postcard#6c0ad277ee1537d4651bc9b1be5ad00929fa3f53"
 dependencies = [
  "cobs",
  "heapless",
@@ -1097,6 +1098,7 @@ dependencies = [
 [[package]]
 name = "postcard-derive"
 version = "0.1.1"
+source = "git+ssh://git@github.com/jucr-io/postcard#6c0ad277ee1537d4651bc9b1be5ad00929fa3f53"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1107,7 +1109,6 @@ dependencies = [
 name = "postcard-rpc"
 version = "0.6.0"
 dependencies = [
- "byteorder",
  "embassy-executor",
  "embassy-sync",
  "embassy-usb",

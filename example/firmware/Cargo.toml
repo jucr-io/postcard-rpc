@@ -42,12 +42,12 @@ incremental = false
 # for now. See https://github.com/embassy-rs/embassy/issues/2936 for getting other min versions of these
 # crates published.
 
-embassy-embedded-hal = { git = "ssh://git@github.com/jucr-io/embassy/" , branch = "kk/update-forks-main" }
-embassy-executor     = { git = "ssh://git@github.com/jucr-io/embassy/" , branch = "kk/update-forks-main" }
-embassy-rp           = { git = "ssh://git@github.com/jucr-io/embassy/" , branch = "kk/update-forks-main" }
-embassy-sync         = { git = "ssh://git@github.com/jucr-io/embassy/" , branch = "kk/update-forks-main" }
-embassy-time         = { git = "ssh://git@github.com/jucr-io/embassy/" , branch = "kk/update-forks-main" }
-embassy-usb          = { git = "ssh://git@github.com/jucr-io/embassy/" , branch = "kk/update-forks-main" }
-embassy-usb-driver   = { git = "ssh://git@github.com/jucr-io/embassy/" , branch = "kk/update-forks-main" }
+embassy-embedded-hal = { git = "ssh://git@github.com/jucr-io/embassy/", branch = "kk/update-forks-main" }
+embassy-executor     = { git = "ssh://git@github.com/jucr-io/embassy/", branch = "kk/update-forks-main" }
+embassy-rp           = { git = "ssh://git@github.com/jucr-io/embassy/", branch = "kk/update-forks-main" }
+embassy-sync         = { git = "ssh://git@github.com/jucr-io/embassy/", branch = "kk/update-forks-main" }
+embassy-time         = { git = "ssh://git@github.com/jucr-io/embassy/", branch = "kk/update-forks-main" }
+embassy-usb          = { git = "ssh://git@github.com/jucr-io/embassy/", branch = "kk/update-forks-main" }
+embassy-usb-driver   = { git = "ssh://git@github.com/jucr-io/embassy/", branch = "kk/update-forks-main" }
+postcard             = { git = "ssh://git@github.com/jucr-io/postcard" }
 postcard-rpc         = { path = "../../source/postcard-rpc" }
-postcard             = { path = "../../../postcard/source/postcard" }
