@@ -9,11 +9,11 @@ features = ["derive"]
 default-features = false
 
 [dependencies.postcard]
-version = "1.0"
 features = ["experimental-derive"]
+git = "ssh://git@github.com/jucr-io/postcard"
 
 [dependencies.postcard-rpc]
-version = "0.5"
+version = "0.6"
 
 [patch.crates-io]
 postcard-rpc = { path = "../../source/postcard-rpc" }
