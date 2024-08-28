@@ -331,7 +331,7 @@ checksum = "60b1af1c220855b6ceac025d3f6ecdd2b7c4894bfe9cd9bda4fbb4bc7c0d4cf0"
 [[package]]
 name = "embassy-embedded-hal"
 version = "0.2.0"
-source = "git+ssh://git@github.com/jucr-io/embassy/?branch=kk/update-forks-main#1bca0aa5aac9151858d0312eb998c989a517894b"
+source = "git+ssh://git@github.com/jucr-io/embassy#5a377602136cc4654d73120a137841d4597639d7"
 dependencies = [
  "embassy-futures",
  "embassy-sync",
@@ -347,7 +347,7 @@ dependencies = [
 [[package]]
 name = "embassy-executor"
 version = "0.6.0"
-source = "git+ssh://git@github.com/jucr-io/embassy/?branch=kk/update-forks-main#1bca0aa5aac9151858d0312eb998c989a517894b"
+source = "git+ssh://git@github.com/jucr-io/embassy#5a377602136cc4654d73120a137841d4597639d7"
 dependencies = [
  "cortex-m",
  "critical-section",
@@ -361,7 +361,7 @@ dependencies = [
 [[package]]
 name = "embassy-executor-macros"
 version = "0.5.0"
-source = "git+ssh://git@github.com/jucr-io/embassy/?branch=kk/update-forks-main#1bca0aa5aac9151858d0312eb998c989a517894b"
+source = "git+ssh://git@github.com/jucr-io/embassy#5a377602136cc4654d73120a137841d4597639d7"
 dependencies = [
  "darling",
  "proc-macro2",
@@ -372,12 +372,12 @@ dependencies = [
 [[package]]
 name = "embassy-futures"
 version = "0.1.1"
-source = "git+ssh://git@github.com/jucr-io/embassy/?branch=kk/update-forks-main#1bca0aa5aac9151858d0312eb998c989a517894b"
+source = "git+ssh://git@github.com/jucr-io/embassy#5a377602136cc4654d73120a137841d4597639d7"
 
 [[package]]
 name = "embassy-hal-internal"
 version = "0.2.0"
-source = "git+ssh://git@github.com/jucr-io/embassy/?branch=kk/update-forks-main#1bca0aa5aac9151858d0312eb998c989a517894b"
+source = "git+ssh://git@github.com/jucr-io/embassy#5a377602136cc4654d73120a137841d4597639d7"
 dependencies = [
  "cortex-m",
  "critical-section",
@@ -388,12 +388,12 @@ dependencies = [
 [[package]]
 name = "embassy-net-driver"
 version = "0.2.0"
-source = "git+ssh://git@github.com/jucr-io/embassy/?branch=kk/update-forks-main#1bca0aa5aac9151858d0312eb998c989a517894b"
+source = "git+ssh://git@github.com/jucr-io/embassy#5a377602136cc4654d73120a137841d4597639d7"
 
 [[package]]
 name = "embassy-net-driver-channel"
 version = "0.3.0"
-source = "git+ssh://git@github.com/jucr-io/embassy/?branch=kk/update-forks-main#1bca0aa5aac9151858d0312eb998c989a517894b"
+source = "git+ssh://git@github.com/jucr-io/embassy#5a377602136cc4654d73120a137841d4597639d7"
 dependencies = [
  "embassy-futures",
  "embassy-net-driver",
@@ -403,7 +403,7 @@ dependencies = [
 [[package]]
 name = "embassy-rp"
 version = "0.2.0"
-source = "git+ssh://git@github.com/jucr-io/embassy/?branch=kk/update-forks-main#1bca0aa5aac9151858d0312eb998c989a517894b"
+source = "git+ssh://git@github.com/jucr-io/embassy#5a377602136cc4654d73120a137841d4597639d7"
 dependencies = [
  "atomic-polyfill",
  "cfg-if",
@@ -440,7 +440,7 @@ dependencies = [
 [[package]]
 name = "embassy-sync"
 version = "0.6.0"
-source = "git+ssh://git@github.com/jucr-io/embassy/?branch=kk/update-forks-main#1bca0aa5aac9151858d0312eb998c989a517894b"
+source = "git+ssh://git@github.com/jucr-io/embassy#5a377602136cc4654d73120a137841d4597639d7"
 dependencies = [
  "cfg-if",
  "critical-section",
@@ -453,7 +453,7 @@ dependencies = [
 [[package]]
 name = "embassy-time"
 version = "0.3.2"
-source = "git+ssh://git@github.com/jucr-io/embassy/?branch=kk/update-forks-main#1bca0aa5aac9151858d0312eb998c989a517894b"
+source = "git+ssh://git@github.com/jucr-io/embassy#5a377602136cc4654d73120a137841d4597639d7"
 dependencies = [
  "cfg-if",
  "critical-section",
@@ -471,7 +471,7 @@ dependencies = [
 [[package]]
 name = "embassy-time-driver"
 version = "0.1.0"
-source = "git+ssh://git@github.com/jucr-io/embassy/?branch=kk/update-forks-main#1bca0aa5aac9151858d0312eb998c989a517894b"
+source = "git+ssh://git@github.com/jucr-io/embassy#5a377602136cc4654d73120a137841d4597639d7"
 dependencies = [
  "document-features",
 ]
@@ -479,12 +479,12 @@ dependencies = [
 [[package]]
 name = "embassy-time-queue-driver"
 version = "0.1.0"
-source = "git+ssh://git@github.com/jucr-io/embassy/?branch=kk/update-forks-main#1bca0aa5aac9151858d0312eb998c989a517894b"
+source = "git+ssh://git@github.com/jucr-io/embassy#5a377602136cc4654d73120a137841d4597639d7"
 
 [[package]]
 name = "embassy-usb"
 version = "0.3.0"
-source = "git+ssh://git@github.com/jucr-io/embassy/?branch=kk/update-forks-main#1bca0aa5aac9151858d0312eb998c989a517894b"
+source = "git+ssh://git@github.com/jucr-io/embassy#5a377602136cc4654d73120a137841d4597639d7"
 dependencies = [
  "defmt",
  "embassy-futures",
@@ -499,7 +499,7 @@ dependencies = [
 [[package]]
 name = "embassy-usb-driver"
 version = "0.1.0"
-source = "git+ssh://git@github.com/jucr-io/embassy/?branch=kk/update-forks-main#1bca0aa5aac9151858d0312eb998c989a517894b"
+source = "git+ssh://git@github.com/jucr-io/embassy#5a377602136cc4654d73120a137841d4597639d7"
 dependencies = [
  "defmt",
 ]
