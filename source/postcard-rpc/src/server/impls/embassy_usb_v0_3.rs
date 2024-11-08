@@ -218,16 +218,16 @@ pub mod dispatch_impl {
 
 /// Implementation detail, holding the endpoint and scratch buffer used for sending
 pub struct EUsbWireTxInner<D: Driver<'static>> {
-    ep_in: D::EndpointIn,
-    log_seq: u16,
-    tx_buf: &'static mut [u8],
-    pending_frame: bool,
+    pub ep_in: D::EndpointIn,
+    pub log_seq: u16,
+    pub tx_buf: &'static mut [u8],
+    pub pending_frame: bool,
 }
 
 /// A [`WireTx`] implementation for embassy-usb 0.3.
 #[derive(Copy)]
 pub struct EUsbWireTx<M: RawMutex + 'static, D: Driver<'static> + 'static> {
-    inner: &'static Mutex<M, EUsbWireTxInner<D>>,
+    pub inner: &'static Mutex<M, EUsbWireTxInner<D>>,
 }
 
 impl<M: RawMutex + 'static, D: Driver<'static> + 'static> Clone for EUsbWireTx<M, D> {
@@ -520,7 +520,7 @@ fn actual_varint_max_len(largest: usize) -> usize {
 
 /// A [`WireRx`] implementation for embassy-usb 0.3.
 pub struct EUsbWireRx<D: Driver<'static>> {
-    ep_out: D::EndpointOut,
+    pub ep_out: D::EndpointOut,
 }
 
 impl<D: Driver<'static>> WireRx for EUsbWireRx<D> {
