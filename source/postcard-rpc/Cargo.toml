@@ -109,18 +109,22 @@ optional = true
 [dependencies.embassy-usb]
 git = "ssh://git@github.com/jucr-io/embassy/"
 optional = true
+branch = "jucr_main"
 
 [dependencies.embassy-usb-driver]
 git = "ssh://git@github.com/jucr-io/embassy/"
 optional = true
+branch = "jucr_main"
 
 [dependencies.embassy-sync]
 git = "ssh://git@github.com/jucr-io/embassy/"
 optional = true
+branch = "jucr_main"
 
 [dependencies.embassy-executor]
 git = "ssh://git@github.com/jucr-io/embassy/"
 optional = true
+branch = "jucr_main"
 
 [dependencies.static_cell]
 version = "2.1"
