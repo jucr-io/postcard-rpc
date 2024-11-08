@@ -9,22 +9,16 @@ features = ["use-std"]
 
 [dependencies.postcard-rpc]
 version = "0.10"
-features = [
-    "use-std",
-    "raw-nusb",
-]
+features = ["use-std", "raw-nusb"]
 
 [dependencies.postcard-schema]
 version = "0.1"
 features = ["derive"]
+git = "ssh://git@github.com/jucr-io/postcard"
+branch = "jucr_main"
 
 [dependencies.tokio]
 version = "1.37.0"
-features = [
-    "rt-multi-thread",
-    "macros",
-    "time",
-]
-
+features = ["rt-multi-thread", "macros", "time"]
 [patch.crates-io]
 postcard-rpc = { path = "../../source/postcard-rpc" }
